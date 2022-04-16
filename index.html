@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary Meta Tags -->
+  <title>Barcode </title>
+  <meta name="title" content="Barcode ">
+  <meta name="description" content="Find out the country of origin of the product you are buying.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Barcode ">
+  <meta property="og:description" content="Find out the country of origin of the product you are buying.">
+  <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Barcode ">
+  <meta property="twitter:description" content="Find out the country of origin of the product you are buying.">
+  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="My portfolio - Olga Kulczycka">
+  <meta property="og:description" content="Here you can see my works, learn more about me, and contact me.">
+  <meta property="og:image"content="img/me/photo_min.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="My portfolio - Olga Kulczycka">
+  <meta property="twitter:description" content="Here you can see my works, learn more about me, and contact me.">
+  <meta property="twitter:image"
+    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="IMG/favicons.ico">
+  <link rel="apple-touch-icon" sizes="60x60" href="IMG/favicons.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="IMG/favicons.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="IMG/favicons.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="IMG/favicons.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="IMG/favicons.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="IMG/favicons.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="IMG/favicons.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="IMG/favicons.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="IMG/favicons.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicons.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="IMG/favicons.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicons.ico/favicon-16x16.png">
+  <link rel="manifest" href="IMG/favicons.ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/normilize.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <section class="main">
+    <div class="container">
+      <div class="main__inner">
+        <h1 class="main__title">Enter the first 3 digits of the product barcode to find out the country of origin</h1>
+        <div class="main__image">
+          <img src="img/barcode.svg" alt="barcode">
+        </div>
+        <form action="" class="main__form" id="form">
+          <input id="maininput" class="main__form_input" name="digits" type="text" value="" placeholder="First 3 digits">
+          <button class="main__form_button button" type="submit">Find out</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="overlay hidden">
+    <div class="overlay__inner">
+      <div class="overlay__images">
+        <img class="overlay__flag">
+      </div>
+      <div class="overlay__title">COUNTRY OF ORIGIN OF THIS PRODUCT IS <span class="overlay__country"></span></div>
+      <div class="overlay__subtitle hidden">Buying this product you support the war in Ukraine and deth of innocent people in Ukraine</div>
+      <button class="overlay__close button">Main page</button>
+    </div>
+  </div>
+  
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
